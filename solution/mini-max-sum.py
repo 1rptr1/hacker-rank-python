@@ -16,8 +16,10 @@ import sys
 def miniMaxSum(arr):
     maxnumber = max(arr)
     minnumber = min(arr)
+    arr=count(max(arr))
     sum_num = sum(arr)
     print(sum_num - maxnumber, sum_num - minnumber)
+    
 
 if __name__ == '__main__':
 
